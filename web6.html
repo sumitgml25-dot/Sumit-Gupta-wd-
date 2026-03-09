@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Seminar Registration Form</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+background: linear-gradient(to right,#74ebd5,#acb6e5);
+}
+
+.container{
+width:650px;
+margin:auto;
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 15px gray;
+}
+
+h1{
+text-align:center;
+color:#333;
+}
+
+fieldset{
+border:2px solid #4CAF50;
+margin-bottom:15px;
+padding:15px;
+border-radius:8px;
+}
+
+legend{
+font-weight:bold;
+color:#4CAF50;
+font-size:18px;
+}
+
+input, select, textarea{
+width:100%;
+padding:8px;
+margin-top:5px;
+margin-bottom:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+.radio-group input,
+.checkbox-group input{
+width:auto;
+margin-right:5px;
+}
+
+button{
+width:100%;
+padding:12px;
+background:#4CAF50;
+color:white;
+border:none;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#45a049;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Seminar Registration Form</h1>
+
+<form>
+
+<fieldset>
+<legend>Personal Information</legend>
+
+Full Name:
+<input type="text" name="fullname" placeholder="Enter your full name" required>
+
+Email Address:
+<input type="email" name="email" placeholder="Enter your email" required>
+
+Phone Number:
+<input type="tel" name="phone" placeholder="Enter your phone number">
+
+Date of Birth:
+<input type="date" name="dob">
+
+Address:
+<textarea rows="3" placeholder="Enter your address"></textarea>
+
+</fieldset>
+
+<fieldset>
+<legend>Gender</legend>
+
+<label><input type="radio" name="gender"> Male</label><br>
+<label><input type="radio" name="gender"> Female</label><br>
+<label><input type="radio" name="gender"> Other</label>
+
+</fieldset>
+
+<fieldset>
+<legend>Educational Details</legend>
+
+College / University:
+<input type="text" placeholder="Enter your college name">
+
+Course:
+<input type="text" placeholder="Enter your course">
+
+Year of Study:
+<select>
+<option>Select Year</option>
+<option>1st Year</option>
+<option>2nd Year</option>
+<option>3rd Year</option>
+<option>Final Year</option>
+</select>
+
+</fieldset>
+
+<fieldset>
+<legend>Seminar Topics Interested</legend>
+
+<label><input type="checkbox"> Artificial Intelligence</label><br>
+<label><input type="checkbox"> Web Development</label><br>
+<label><input type="checkbox"> Cyber Security</label><br>
+<label><input type="checkbox"> Data Science</label>
+
+</fieldset>
+
+<fieldset>
+<legend>Select Seminar Day</legend>
+
+<select>
+<option>Select Seminar Date</option>
+<option>10 April 2026</option>
+<option>11 April 2026</option>
+<option>12 April 2026</option>
+</select>
+
+</fieldset>
+
+<fieldset>
+<legend>Payment Method</legend>
+
+<label><input type="radio" name="payment"> UPI</label><br>
+<label><input type="radio" name="payment"> Credit Card</label><br>
+<label><input type="radio" name="payment"> Debit Card</label><br>
+<label><input type="radio" name="payment"> Cash</label>
+
+</fieldset>
+
+<fieldset>
+<legend>Additional Message</legend>
+
+<textarea rows="3" placeholder="Any questions or message"></textarea>
+
+</fieldset>
+
+<button type="submit">Register for Seminar</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
