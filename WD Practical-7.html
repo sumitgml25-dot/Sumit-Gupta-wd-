@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MS Dhoni Tribute</title>
+
+<style>
+
+/* BODY */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgba(0,0,0,0.85);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00ffd5;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    padding: 40px;
+}
+
+.header h1 {
+    font-size: 55px;
+    background: linear-gradient(to right, #00ffd5, #00c3ff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* SECTIONS */
+.section {
+    width: 85%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* GRID LAYOUT */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+/* IMAGE */
+.image img {
+    width: 350px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #00ffd5;
+    transition: 0.4s;
+}
+
+.image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ffd5;
+}
+
+/* TEXT */
+.text {
+    flex: 1;
+}
+
+/* HEADINGS */
+h2 {
+    color: #00ffd5;
+}
+
+/* LIST */
+ul li {
+    margin: 8px 0;
+}
+
+/* TIMELINE */
+.timeline {
+    border-left: 3px solid #00ffd5;
+    padding-left: 20px;
+}
+
+.timeline p {
+    margin: 10px 0;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    margin-top: 30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Biography</a>
+    <a href="#">Career</a>
+    <a href="#">Achievements</a>
+    <a href="#">Legacy</a>
+</nav>
+
+<!-- HEADER -->
+<div class="header">
+    <h1>Mahendra Singh Dhoni</h1>
+    <p>Captain Cool | Finisher | Legend of Indian Cricket</p>
+</div>
+
+<!-- ABOUT + IMAGE -->
+<div class="section grid">
+
+    <div class="image">
+        <img src="MSD.jpeg" alt="MS Dhoni">
+    </div>
+
+    <div class="text">
+        <h2>Biography</h2>
+        <p>
+            Mahendra Singh Dhoni was born on 7 July 1981 in Ranchi, Jharkhand.
+            He started his career as a ticket collector in Indian Railways before becoming one of the greatest cricketers in the world.
+        </p>
+
+        <h2>Early Life</h2>
+        <p>
+            Initially a football goalkeeper, Dhoni switched to cricket and quickly rose through domestic ranks due to his powerful batting and wicketkeeping skills.
+        </p>
+    </div>
+
+</div>
+
+<!-- CAREER -->
+<div class="section">
+    <h2>International Career</h2>
+    <p>
+        Dhoni made his debut in 2004 and became captain in 2007. Under his leadership, India became one of the strongest teams in world cricket.
+        He is known for his calm decision-making and finishing matches under pressure.
+    </p>
+</div>
+
+<!-- ACHIEVEMENTS -->
+<div class="section">
+    <h2>Major Achievements</h2>
+    <ul>
+        <li>🏆 ICC T20 World Cup Winner (2007)</li>
+        <li>🏆 ICC ODI World Cup Winner (2011)</li>
+        <li>🏆 ICC Champions Trophy Winner (2013)</li>
+        <li>🏆 Led India to No.1 Test Ranking</li>
+        <li>🏆 Multiple IPL Titles with Chennai Super Kings</li>
+    </ul>
+</div>
+
+<!-- CAPTAINCY -->
+<div class="section">
+    <h2>Captaincy Style</h2>
+    <p>
+        Known as "Captain Cool", Dhoni remained calm in pressure situations.
+        His ability to take bold decisions and trust young players made him one of the greatest captains in cricket history.
+    </p>
+</div>
+
+<!-- TIMELINE -->
+<div class="section">
+    <h2>Career Timeline</h2>
+
+    <div class="timeline">
+        <p>📅 2004 – International Debut</p>
+        <p>📅 2007 – Won T20 World Cup</p>
+        <p>📅 2011 – Won ODI World Cup</p>
+        <p>📅 2013 – Won Champions Trophy</p>
+        <p>📅 2020 – Retired from International Cricket</p>
+    </div>
+
+</div>
+
+<!-- LEGACY -->
+<div class="section">
+    <h2>Legacy</h2>
+    <p>
+        MS Dhoni is remembered as one of the greatest finishers and leaders in cricket history.
+        His helicopter shot, leadership, and humble personality continue to inspire millions worldwide.
+    </p>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>Tribute Page | Made with ❤️ for MS Dhoni</p>
+</footer>
+
+</body>
+</html>
